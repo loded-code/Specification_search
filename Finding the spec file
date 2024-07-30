@@ -4,7 +4,7 @@ import fitz
 import PyPDF2
 
 def check_for_material_number(material_no):
-    n1= "94-1234-001"
+    n1= "94-1234-001"    #Files taken here are for example
     n2 = "94-5678-001"
     n3 = "94-4321-001"
     if material_no == n1:
